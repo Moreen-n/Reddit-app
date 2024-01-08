@@ -1,10 +1,11 @@
-import Comment from "@/components/Comments";
-import CreateComment from "@/components/NewComent";
-import Post from "@/components/Post";
-import Reply from "@/components/Reply";
 import { countComments } from "@/lib/CountComments";
 import { fetchUser } from "@/lib/fetchUser.js";
 import { prisma } from "@/lib/prisma.js";
+
+import Comment from "../../../components/Comments";
+import CreateComment from "../../../components/NewComent";
+import Post from "../../../components/post";
+import Reply from "../../../components/reply";
 
 export default async function RedditPost({ params }) {
   try {

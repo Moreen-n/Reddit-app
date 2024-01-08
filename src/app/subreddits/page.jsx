@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation.js";
 
 import CreateSubreddit from "@/components/subreddit";
 
